@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="80" tileheight="80" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" name="tile" tilewidth="80" tileheight="80" tilecount="7" columns="7">
+  <image source="tilesetb.png" width="560" height="80"/>
+ </tileset>
+ <tileset firstgid="8" name="tileset" tilewidth="400" tileheight="400" tilecount="36" columns="6">
+  <image source="tileset2.png" width="2400" height="2400"/>
+ </tileset>
+ <layer name="块层 3" width="8" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+4,4,4,0,0,6,6,6,
+4,4,4,0,0,0,5,6,
+4,4,4,0,0,0,5,6,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="块层 4" width="8" height="8">
+  <properties>
+   <property name="order" value="01"/>
+   <property name="sBlanks" type="int" value="1"/>
+   <property name="spos0" value="21"/>
+   <property name="spos1" value="11"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,12,0,0,0,0,0,
+0,36,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="块层 1" width="8" height="8" visible="0">
+  <data encoding="csv">
+0,0,4,4,4,0,0,0,
+0,0,6,6,6,0,0,0,
+0,0,6,6,6,0,0,0,
+0,0,6,6,6,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,6,6,4,0,0,0,
+0,0,6,6,4,0,0,0,
+0,0,6,6,6,0,0,0
+</data>
+ </layer>
+ <layer name="块层 2" width="8" height="8" visible="0">
+  <properties>
+   <property name="order" value="1"/>
+   <property name="sBlanks" type="int" value="2"/>
+   <property name="spos0" value="12"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,9,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="块层 5" width="8" height="8" visible="0">
+  <data encoding="csv">
+0,0,0,1,1,1,0,0,
+0,0,0,1,1,1,0,0,
+0,0,0,1,1,1,0,0,
+1,1,1,0,0,0,1,1,
+1,1,1,0,0,0,1,1,
+1,1,1,0,0,0,1,1,
+0,0,0,0,0,0,0,0,
+0,0,0,1,1,1,0,0
+</data>
+ </layer>
+ <layer name="块层 6" width="8" height="8" visible="0">
+  <properties>
+   <property name="order" value="21"/>
+   <property name="sBlanks" type="int" value="0"/>
+   <property name="spos0" value="24"/>
+   <property name="spos1" value="22"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,26,12,0,0,0,0,
+0,0,9,0,0,0,0,0
+</data>
+ </layer>
+</map>

@@ -1,0 +1,8 @@
+# 配置文件版本号，必配
+version = 3
+
+[gs2s]
+# Google S2S 相关
+isRequestGoogleS2S = true
+googleS2SToken = k1Gg9WS2Py1elhgqL5qS8g
+googleS2SLinkId = 41A2E4FD59D7A4B3769DF46010BBDDB6
