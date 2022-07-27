@@ -1,0 +1,131 @@
+{
+  "events": {
+    "eventType1": {
+      "1": {
+        "eventName": "isHaveEventRecordForDay020T150Inter20",
+        "playTimeMins": 150,
+        "showInterstitialAd": 20,
+        "userLevel": 1,
+        "sendGoogle": "VIEW_ITEM_LIST",
+        "sendFacebook": 1,
+        "sendFirebase": 42
+      },
+      "3": {
+        "eventName": "isHaveEventRecordForDay020T150Int20x83",
+        "playTimeMins": 150,
+        "showInterstitialAd": 20,
+        "userLevel": 3,
+        "sendGoogle": "VIEW_ITEM",
+        "sendFacebook": 2,
+        "sendFirebase": 44
+      },
+      "5": {
+        "eventName": "isHaveEventRecordForDay020T150Int20x33",
+        "playTimeMins": 150,
+        "showInterstitialAd": 20,
+        "userLevel": 2,
+        "sendGoogle": "ADD_TO_CART",
+        "sendFacebook": 3,
+        "sendFirebase": 43
+      }
+    },
+    "eventType2": {
+      "7": {
+        "eventName": "isHaveEventRecordForTotalTime300Int60",
+        "playTimeMins": 300,
+        "showInterstitialAd": 60,
+        "sendGoogle": "VIEW_SEARCH_RESULTS",
+        "sendFacebook": 4,
+        "sendFirebase": 45
+      },
+      "9": {
+        "eventName": "isHaveEventRecordForTotalTime600Int100",
+        "playTimeMins": 600,
+        "showInterstitialAd": 100,
+        "sendGoogle": "ECOMMERCE_PURCHASE",
+        "sendFacebook": 5,
+        "sendFirebase": 46
+      }
+    },
+    "eventType3": {
+      "11": {
+        "timeIntervalMins": 5,
+        "timeKey": 0,
+        "sendGoogle": "SESSION_START",
+        "sendFacebook": 6,
+        "sendFirebase": 48
+      },
+      "23": {
+        "timeKey": 1,
+        "timeIntervalMins": 5,
+        "timeLimitHour": 24,
+        "sendFacebook": 10
+      }
+    },
+    "eventType4": {
+      "13": {
+        "worthInterval": 5,
+        "worthKey": 6,
+        "sendCostom": "Every005Worth",
+        "sendGoogle": "IN_APP_PURCHASE",
+        "sendFirebase": 47,
+        "sendGoogleValue": 0.005
+      },
+      "14": {
+        "worthInterval": 5,
+        "timeLimitHour": 24,
+        "worthKey": 0,
+        "sendFacebook": 7
+      },
+      "16": {
+        "worthInterval": 5,
+        "timeLimitHour": 48,
+        "worthKey": 1,
+        "sendFacebook": 11
+      }
+    },
+    "eventType5": {
+      "20": {
+        "timeIntervalMins": 5,
+        "timeKey": 2,
+        "worthKey": 2,
+        "isSendWithGameStart": true,
+        "sendFacebook": 8,
+        "sendFirebase": 41,
+        "sendFirebaseValue": 41
+      }
+    },
+    "eventType6": {
+      "18": {
+        "worthInterval": 0.1,
+        "worthKey": 5,
+        "sendFirebase": 52,
+        "sendFirebaseValue": 0
+      },
+      "19": {
+        "worthInterval": 0.01,
+        "worthKey": 4,
+        "sendFirebase": 51,
+        "sendFirebaseValue": 0
+      }
+    },
+    "eventType8": {
+      "28": {
+        "eventName": "isHaveEventRecordForFirstGet001Worth",
+        "sendCostom": "CountryWorthBack",
+        "sendFacebook": 12
+      }
+    },
+    "eventType10": {
+      "31": {
+        "eventName": "isHaveEventRecordForLogin5Days20Mins20Inter",
+        "playTimeMins": 150,
+        "loginDay": 5,
+        "showInterstitialAd": 20,
+        "sendFacebook": 15,
+        "sendCostom": "Day020Mins5DaysLogin",
+        "sendFirebase": 90
+      }
+    }
+  }
+}
