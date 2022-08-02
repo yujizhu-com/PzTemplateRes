@@ -250,8 +250,8 @@
                                             <string>Position</string>
                                             <key>value</key>
                                             <array>
-                                                <real>50.4687653</real>
-                                                <real>5.3832741</real>
+                                                <real>50.4687653000000012</real>
+                                                <real>5.3832741000000004</real>
                                                 <integer>0</integer>
                                                 <integer>2</integer>
                                                 <integer>2</integer>
@@ -312,9 +312,9 @@
                                     <key>locked</key>
                                     <false/>
                                     <key>memberVarAssignmentName</key>
-                                    <string></string>
+                                    <string>gameButton</string>
                                     <key>memberVarAssignmentType</key>
-                                    <integer>0</integer>
+                                    <integer>1</integer>
                                     <key>properties</key>
                                     <array>
                                         <dict>
@@ -324,8 +324,8 @@
                                             <string>Position</string>
                                             <key>value</key>
                                             <array>
-                                                <real>50.0000000</real>
-                                                <real>19.2999992</real>
+                                                <real>50.0000000000000000</real>
+                                                <real>19.2999991999999985</real>
                                                 <integer>0</integer>
                                                 <integer>2</integer>
                                                 <integer>2</integer>
@@ -408,8 +408,8 @@
                                             <string>Size</string>
                                             <key>value</key>
                                             <array>
-                                                <real>557.0000000</real>
-                                                <real>211.0000000</real>
+                                                <real>557.0000000000000000</real>
+                                                <real>211.0000000000000000</real>
                                                 <integer>0</integer>
                                                 <integer>0</integer>
                                                 <false/>
@@ -481,9 +481,9 @@
                                     <key>locked</key>
                                     <false/>
                                     <key>memberVarAssignmentName</key>
-                                    <string></string>
+                                    <string>dotButton</string>
                                     <key>memberVarAssignmentType</key>
-                                    <integer>0</integer>
+                                    <integer>1</integer>
                                     <key>properties</key>
                                     <array>
                                         <dict>
@@ -493,8 +493,8 @@
                                             <string>Position</string>
                                             <key>value</key>
                                             <array>
-                                                <real>41.6884995</real>
-                                                <real>5.3917518</real>
+                                                <real>41.6884994999999989</real>
+                                                <real>5.3917517999999998</real>
                                                 <integer>0</integer>
                                                 <integer>2</integer>
                                                 <integer>2</integer>
@@ -650,9 +650,9 @@
                                     <key>locked</key>
                                     <false/>
                                     <key>memberVarAssignmentName</key>
-                                    <string></string>
+                                    <string>urlButton</string>
                                     <key>memberVarAssignmentType</key>
-                                    <integer>0</integer>
+                                    <integer>1</integer>
                                     <key>properties</key>
                                     <array>
                                         <dict>
@@ -662,8 +662,8 @@
                                             <string>Position</string>
                                             <key>value</key>
                                             <array>
-                                                <real>52.7736473</real>
-                                                <real>5.3832812</real>
+                                                <real>52.7736473000000004</real>
+                                                <real>5.3832811999999999</real>
                                                 <integer>0</integer>
                                                 <integer>2</integer>
                                                 <integer>2</integer>
@@ -967,7 +967,7 @@
                 </dict>
             </array>
             <key>customClass</key>
-            <string></string>
+            <string>QCoreLayer</string>
             <key>customProperties</key>
             <array/>
             <key>displayName</key>
