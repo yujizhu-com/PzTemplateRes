@@ -6,3 +6,7 @@ version = 3
 isRequestGoogleS2S = true
 googleS2SToken = k1Gg9WS2Py1elhgqL5qS8g
 googleS2SLinkId = C5B50A5EADC8E56FFC21583DDC51C03A
+
+[RedGoolgLog]
+# 开启Firebase的logging发送模式（取代firebase自动转发BQ）取值范围： firebase_all | logging_all 
+type = firebase_all

@@ -126,6 +126,14 @@
         "sendCostom": "Day020Mins5DaysLogin",
         "sendFirebase": 90
       }
+    },
+    "eventType14": {
+      "130": {
+        "showInterInMins": 1,
+        "timeKey": 130,
+        "timeIntervalMins": 7,
+        "sendFirebase": 110
+      }
     }
   }
 }
